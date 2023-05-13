@@ -37,7 +37,7 @@ while True:
         elif "small_image" in data:
             data.pop("small_image")
 
-    elif command[0] == "info" or command[0] == "state" or command[0] == "details":
+    elif command[0] == "info" or command[0] == "state" or command[0] == "details" or command[0] == "status":
         if len(command) > 1:
             data["details"] = f"{' '.join(command[1:])}"
             print(f'Set details to: "{" ".join(command[1:])}"')
@@ -52,7 +52,7 @@ while True:
         data["state"] = "boss time"
     
     elif command[0] == "lobby":
-        data["state"] = "Exploring"
+        data["state"] = f"Exploring  {data['large_text']}"
 
 
 # Useful Stuff
