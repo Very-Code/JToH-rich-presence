@@ -41,7 +41,8 @@ Realms = {
     "pm": ("Pit of Misery", "zone"),
     "pom": ("Pit of Misery", "zone"),
     "pt": ("Practice Time", "cat"),
-    "eh": ("Eclipsed Headquarters", "halloween")
+    "eh": ("Eclipsed Headquarters", "halloween"),
+    "lm": ("Legacy Mini-Event", "ring"),
 }
 Towers = {
     "toast": ("Tower of Annoyingly Simple Trials", "r1", "Low eas"),
